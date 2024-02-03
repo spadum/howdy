@@ -4,8 +4,7 @@ const currentWeatherDiv=document.querySelector(".current-weather");
 const weatherCardsDiv=document.querySelector(".weather-cards");
 
 const API_KEY="48819671c7c0a1365f221d34acc6e5e9";
-//48819671c7c0a1365f221d34acc6e5e9
-//48819671c7c0a1365f221d34acc6e5e9
+
 const createWeatherCard=(cityName, weatherItem, index)=>{
     if(index === 0){
         //main card HTML
